@@ -10,6 +10,7 @@ use frontend\widgets\WSearchForm;
                     <!--Logo start-->
                     <a href="<?= Url::to('/') ?>" class="b-logo">
                         <span class="b-logo__img">
+                            <!--
                             <svg height="100%" width="100%" version="1.1" y="0" x="0" viewBox="0 0 78.708664 98.000002" style="max-width: 80px;">
                                 <g transform="matrix(1.5433 0 0 1.5433 -95.531 -61.887)">
                                     <g>
@@ -18,9 +19,11 @@ use frontend\widgets\WSearchForm;
 		                            </g>
 	                            </g>
                             </svg>
+                            -->
+                            <img src="/images/companies/19.1.b.jpg" alt="" class="mainlogo">
                         </span>
                         <span class="b-logo__title">
-                             Центр страхованияxxx
+                             Центр страхования
                         </span>
                     </a>
                     <!--/Logo end-->
@@ -114,7 +117,7 @@ use frontend\widgets\WSearchForm;
                         <div class="b-hero__img" style="background-image:url(img/slider/slider1.jpg)"></div>
                         <div class="b-hero__inner">
                             <div class="b-hero__content">
-                                <div class="b-hero__caption b-hero__caption--left js-hero-caption" style="color:red;">
+                                <div class="b-hero__caption b-hero__caption--left js-hero-caption" style="color:#fff;">
                                     &mdash; Мама, не волнуйся,
                                     <br />
                                     &emsp;я застрахован
@@ -146,7 +149,7 @@ use frontend\widgets\WSearchForm;
                         <div class="b-hero__img" style="background-image:url(img/slider/slider3.jpg)"></div>
                         <div class="b-hero__inner">
                             <div class="b-hero__content">
-                                <div class="b-hero__caption b-hero__caption--left js-hero-caption" style="color:red">
+                                <div class="b-hero__caption b-hero__caption--left js-hero-caption" style="color:#fff">
                                     &mdash; Папа, не волнуйся,
                                     <br />
                                     &emsp;я застрахована

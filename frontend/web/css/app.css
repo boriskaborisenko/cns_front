@@ -101,6 +101,7 @@
 
 .vca,
 .b-logo__img svg,
+.b-logo__img img,
 .b-hero__dot:before,
 .b-review__icon i {
     position: absolute;
@@ -449,12 +450,16 @@ blockquote {
     display: inline-block;
     padding-top: 2px;
     line-height: 1.2;
-    font-size: 13px
+    font-size: 13px;
+    background: linear-gradient(45deg, #16AC5B, #1BC5B7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color:magenta;
 }
 
 @media screen and (min-width: 601px) {
     .b-logo__title {
-        line-height: 1.3
+        line-height: 1.3;
     }
 }
 
@@ -838,6 +843,7 @@ input.b-search__input.hover {
     font-size: 1.25rem;
     background: #16AC5D
 }
+.b-menu__call-back:hover{background:#1BC5B7!important;}
 
 .b-menu__call-link {
     color: #16AC5D !important
@@ -909,6 +915,7 @@ input.b-search__input.hover {
     position: relative
 }
 
+
 .b-menu__dropdown:before {
     content: '';
     display: none;
@@ -964,7 +971,7 @@ input.b-search__input.hover {
     }
     .b-header--hero .b-menu__dropdown:hover:before,
     .b-header--hero .b-menu__dropdown:active:before {
-        background: #119ec9
+        background: #1BC5B7;
     }
 }
 
@@ -1028,7 +1035,7 @@ input.b-search__input.hover {
 
 .b-part-menu__img i,
 .b-service__img i {
-    color:#fff;
+    color:#ff303f;
     position: absolute;
     top: 25%;
     left: 50%;
@@ -1199,7 +1206,8 @@ a.b-crumb__link:active {
     font-weight: 600;
     line-height: 1.3;
     position: absolute;
-    top: 5%;
+    /*top: 5%;*/
+    margin-top:40px;
     right: 0px;
     -webkit-transition-property: opacity, -webkit-transform;
     -moz-transition-property: opacity, -moz-transform;
@@ -1396,6 +1404,7 @@ a.b-crumb__link:active {
 
 .b-hero__nav {
     position: absolute;
+    top:-300px;
     right: 10px;
     z-index: 100
 }
@@ -3493,6 +3502,8 @@ table.js-sortable .arrow.up {
 .clbbtn{background:#FDEC97!important;}
 .clbbtn:hover{background:#fadf56!important;}
 
+.mainlogo{width:100%; height:auto;}
+
 /*
 .onlydeskbtn{
     position:absolute;
@@ -3501,13 +3512,16 @@ table.js-sortable .arrow.up {
     z-index:100500!important;
 }
 .onlymob{display:none!important;}
+*/
 @media screen and (min-width: 320px) and (max-width:600px) {
- .onlymob{
+    
+/*
+    .onlymob{
     display:block!important;  
  }
  .onlydeskbtn{
      position:relative;
     display:block!important;
 }
-}
 */
+}

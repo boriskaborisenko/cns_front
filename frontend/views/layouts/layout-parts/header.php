@@ -10,7 +10,8 @@ use frontend\widgets\WSearchForm;
                     <!--Logo start-->
                     <a href="<?= Url::to('/') ?>" class="b-logo">
                         <span class="b-logo__img">
-                        <svg height="100%" width="100%" version="1.1" y="0" x="0" viewBox="0 0 78.708664 98.000002" style="max-width: 80px;">
+                            <!--
+                            <svg height="100%" width="100%" version="1.1" y="0" x="0" viewBox="0 0 78.708664 98.000002" style="max-width: 80px;">
                                 <g transform="matrix(1.5433 0 0 1.5433 -95.531 -61.887)">
                                     <g>
                                         <path fill="#f68b1f" d="m87.4 40.1c-14.1 0-25.5 11.4-25.5 25.5 0 13.7 23.2 36.5 24.1 37.4 0.4 0.4 0.9 0.6 1.4 0.6s1-0.2 1.4-0.6c1-1 24.1-23.8 24.1-37.4 0-14-11.4-25.5-25.5-25.5z" />
@@ -18,6 +19,8 @@ use frontend\widgets\WSearchForm;
 		                            </g>
 	                            </g>
                             </svg>
+                            -->
+                            <img src="/images/companies/19.1.b.jpg" alt="" class="mainlogo">
                         </span>
                         <span class="b-logo__title">Центр страхования</span>
                     </a>
