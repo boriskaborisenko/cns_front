@@ -15,7 +15,7 @@ use yii\helpers\Html;
                     </div>
                     <div class="col s12 m6 l3">
                         <label class="b-callback__label">&nbsp;</label>
-                        <button type="submit" class="btn b-callback__btn waves-effect waves-light">Перезвоните мне</button>
+                        <button type="submit" class="btn b-callback__btn waves-effect waves-light clbbtn">Перезвоните мне</button>
                     </div>
                 </div>
                 <p class="b-callback__agree">

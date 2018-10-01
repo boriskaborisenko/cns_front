@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 use yii\helpers\Url;
 ?>
-                    <ul class="b-menu b-menu--left">
+                    <ul class="b-menu b-menu--left" style="position:absolute; right:10%;">
                         <li class="b-menu__item">
                             <a class="dropdown-button b-menu__dropdown" href="#!" data-activates='services' data-constrainwidth="false">
                                 Меню

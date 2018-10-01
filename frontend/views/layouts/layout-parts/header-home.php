@@ -10,14 +10,14 @@ use frontend\widgets\WSearchForm;
                     <!--Logo start-->
                     <a href="<?= Url::to('/') ?>" class="b-logo">
                         <span class="b-logo__img">
-                            <!--svg height="100%" width="100%" version="1.1" y="0" x="0" viewBox="0 0 78.708664 98.000002" style="max-width: 80px;">
+                            <svg height="100%" width="100%" version="1.1" y="0" x="0" viewBox="0 0 78.708664 98.000002" style="max-width: 80px;">
                                 <g transform="matrix(1.5433 0 0 1.5433 -95.531 -61.887)">
                                     <g>
                                         <path fill="#f68b1f" d="m87.4 40.1c-14.1 0-25.5 11.4-25.5 25.5 0 13.7 23.2 36.5 24.1 37.4 0.4 0.4 0.9 0.6 1.4 0.6s1-0.2 1.4-0.6c1-1 24.1-23.8 24.1-37.4 0-14-11.4-25.5-25.5-25.5z" />
                                         <path fill="#fff" d="m89.2 66.5h12.6c0-7.9-6.4-14.3-14.3-14.3s-14.3 6.4-14.3 14.3h13.2v8.7 0.1 0.1c0 1-0.8 1.8-1.8 1.8s-1.8-0.8-1.8-1.8c0-0.8-0.6-1.4-1.4-1.4s-1.4 0.6-1.4 1.4c0 2.6 2.1 4.6 4.6 4.6 2.6 0 4.6-2.1 4.6-4.6v-0.1-0.1-8.7z" />
 		                            </g>
 	                            </g>
-                            </svg-->
+                            </svg>
                         </span>
                         <span class="b-logo__title">
                              Центр страхованияxxx
@@ -114,7 +114,7 @@ use frontend\widgets\WSearchForm;
                         <div class="b-hero__img" style="background-image:url(img/slider/slider1.jpg)"></div>
                         <div class="b-hero__inner">
                             <div class="b-hero__content">
-                                <div class="b-hero__caption js-hero-caption">
+                                <div class="b-hero__caption b-hero__caption--left js-hero-caption" style="color:red;">
                                     &mdash; Мама, не волнуйся,
                                     <br />
                                     &emsp;я застрахован
@@ -124,8 +124,8 @@ use frontend\widgets\WSearchForm;
                         <div class="b-hero__main">
                             <div class="b-hero__content">
                                 <div class="left">
-                                    <span class="b-hero__title">ОСАГО</span>
-                                    <a href="<?php echo Yii::$app->links->mainMenuLink(2); ?>" id="gtm-btn-main-calc-onl" class="btn b-hero__btn waves-effect waves-light">Рассчитать онлайн</a>
+                                    <span class="b-hero__title onlymob">ОСАГО</span>
+                                    <a href="<?php echo Yii::$app->links->mainMenuLink(2); ?>" id="gtm-btn-main-calc-onl" class="btn b-hero__btn waves-effect waves-light onlydeskbtn">Рассчитать онлайн</a>
                                 </div>
                                 <div class="right">
                                     <div class="b-phone">
@@ -146,7 +146,7 @@ use frontend\widgets\WSearchForm;
                         <div class="b-hero__img" style="background-image:url(img/slider/slider3.jpg)"></div>
                         <div class="b-hero__inner">
                             <div class="b-hero__content">
-                                <div class="b-hero__caption b-hero__caption--left js-hero-caption" style="color:#000">
+                                <div class="b-hero__caption b-hero__caption--left js-hero-caption" style="color:red">
                                     &mdash; Папа, не волнуйся,
                                     <br />
                                     &emsp;я застрахована
@@ -156,8 +156,8 @@ use frontend\widgets\WSearchForm;
                         <div class="b-hero__main">
                             <div class="b-hero__content">
                                 <div class="left">
-                                    <span class="b-hero__title">Зеленая карта</span>
-                                    <a href="<?php echo Yii::$app->links->mainMenuLink(4); ?>" class="btn b-hero__btn waves-effect waves-light">Рассчитать онлайн</a>
+                                    <span class="b-hero__title onlymob">Зеленая карта</span>
+                                    <a href="<?php echo Yii::$app->links->mainMenuLink(4); ?>" class="btn b-hero__btn waves-effect waves-light onlydeskbtn">Рассчитать онлайн</a>
                                 </div>
                                 <div class="right">
                                     <div class="b-phone">

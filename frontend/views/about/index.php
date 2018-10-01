@@ -20,7 +20,7 @@ $this->registerMetaTag([
 ],'og_title');
 $this->registerMetaTag([
     'property' => 'og:description',
-    'content' => 'Ответь себе на 5 вопросов и выбери Центр народного страхования'
+    'content' => 'Ответь себе на 5 вопросов и выбери Центр страхования'
 ],'og_description');
 $this->registerMetaTag([
     'property' => 'og:image',
@@ -37,7 +37,7 @@ $this->registerMetaTag([
                     'active' => 1
                 ]
             ]); ?>
-            <h1 class="b-page__title">Ответь себе на 5 вопросов и выбери Центр народного страхования</h1>
+            <h1 class="b-page__title">Ответь себе на 5 вопросов и выбери Центр страхования</h1>
             <div class="row">
                 <div class="col s12 l12">
                     <?= $sections['about-content']->info->text ?>

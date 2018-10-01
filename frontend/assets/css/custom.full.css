@@ -391,7 +391,8 @@ input.osago-offers-form__city_input[type="text"]
 }
 
 .c-brand-orange{
-    color: #f68b1f;
+    /*color: #f68b1f;*/
+    color:#16AC5D!important;
 }
 
 

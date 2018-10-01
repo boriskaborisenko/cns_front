@@ -776,7 +776,7 @@ input.b-search__input.hover {
     height: 36px;
     left: -4px;
     top: -6px;
-    background: url(../img/icons/badge.svg) 100% 100% no-repeat
+    background: url(../img/icons/badge2.svg) 100% 100% no-repeat
 }
 
 .b-submenu__icon:after {
@@ -1000,13 +1000,13 @@ input.b-search__input.hover {
 .b-service__img {
     margin: 0;
     padding: 0;
-    width: 33px;
-    height: 40px;
+    width: 43px;
+    height: 50px;
     position: absolute;
     top: 0;
     left: 0;
     color: #fff;
-    font-size: 14px
+    font-size: 18px
 }
 
 .b-part-menu__img svg,
@@ -1020,7 +1020,7 @@ input.b-search__input.hover {
 
 .b-part-menu__img path,
 .b-service__img path {
-    fill: #f08a00;
+    fill: #16AB5C;
     -webkit-transition: fill 0.2s ease-in;
     -moz-transition: fill 0.2s ease-in;
     transition: fill 0.2s ease-in
@@ -1028,6 +1028,7 @@ input.b-search__input.hover {
 
 .b-part-menu__img i,
 .b-service__img i {
+    color:#fff;
     position: absolute;
     top: 25%;
     left: 50%;
@@ -1377,7 +1378,8 @@ a.b-crumb__link:active {
 }
 
 .b-hero__pager {
-    position: absolute;
+    /*position: absolute;*/
+    position:relative;
     top: 0;
     left: 0;
     right: 0;
@@ -3275,7 +3277,7 @@ table.b-ch-table.highlight tbody tr {
 
 .f-social__link:hover,
 .f-social__link:active {
-    color: #16AC5D
+    color: #1BC5B7
 }
 
 @media screen and (min-width: 993px) {
@@ -3482,3 +3484,30 @@ table.js-sortable .arrow.up {
     display: none;
     padding-left: 4em
 }
+
+.btn{
+    background:#16AC5D!important;
+}
+.btn:hover{background:#1BC5B7!important;}
+
+.clbbtn{background:#FDEC97!important;}
+.clbbtn:hover{background:#fadf56!important;}
+
+/*
+.onlydeskbtn{
+    position:absolute;
+    top:-310px;
+    left:550px;
+    z-index:100500!important;
+}
+.onlymob{display:none!important;}
+@media screen and (min-width: 320px) and (max-width:600px) {
+ .onlymob{
+    display:block!important;  
+ }
+ .onlydeskbtn{
+     position:relative;
+    display:block!important;
+}
+}
+*/
