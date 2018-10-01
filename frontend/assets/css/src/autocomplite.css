@@ -1,0 +1,22 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13 квіт. 2016, 22:39:40
+    Author     : Pavlo
+*/
+
+/*
+AutoComplite Plugin styles
+*/
+.autocomplete-suggestions {
+    text-align: left; cursor: default; border: 1px solid #d1d1d1; border-top: 0; background: #fff; box-shadow: -1px 1px 3px rgba(0,0,0,.1);
+
+    /* core styles should not be changed */
+    position: absolute; display: none; z-index: 9999; max-height: 254px; overflow: hidden; overflow-y: auto; box-sizing: border-box;
+}
+.autocomplete-suggestion { position: relative; padding: 0 .6em; line-height: 36px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 1em; color: #363636; cursor: pointer; }
+.autocomplete-suggestion b { font-weight: normal; color: #ae9675; }
+.autocomplete-suggestion.selected { background: #F3F3F3;}

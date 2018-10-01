@@ -1,0 +1,277 @@
+/*
+Custom styles
+*/
+@font-face {
+	font-family: 'BRnumber';
+	src: url(../font/brnumber/BRnumber.otf?v=1.0.1);
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+.pg-mt-50 {
+    margin-top: 50px;
+}
+
+.font-blue{
+    color: #13B0E1;
+}
+
+.b-header {
+    z-index: 3000;
+}
+.pg-form__wrapper {
+    position:relative;
+}
+
+ol.b-crum {
+    padding: 0px;
+}
+
+.b-page{
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.b-postlist__link {
+    box-shadow: none;
+}
+
+.pg-breadcrumbs .b-crumb__item.active a.b-crumb__link {
+    cursor: pointer;
+}
+
+.b-page__subtitle, .b-history__title {
+    margin-bottom: 10px;
+}
+
+.b-phone {
+    margin: 0px 0px;
+}
+
+.pg-display__inline-block{
+    display:inline-block;
+}
+
+.pg-inline-block__margin{
+    margin: 0px 50px 15px 0px;
+}
+
+#new-post-offices a {
+    text-decoration: underline;
+}
+
+.b-tabs--big .b-tabs__link {
+    border-width: 4px medium;
+}
+
+.b-tabs--justify .b-tabs__link {
+    border-width: 2px medium;
+}
+
+.special_offers {
+    margin-bottom: 20px;
+}
+
+.special_offers:hover{
+    color: #f55c4d;
+    transition: color .15s;
+}
+
+#transit {
+    height: 220px;
+}
+
+.custom_warning {
+    display: none;
+    margin: 20px auto 0 auto;
+    text-align: center;
+    color: #f55c4d;
+    font-family: inherit;
+    font-size: 20px;
+}
+
+.publications_image {
+    /*float: left;*/
+    display: block;
+    margin: 10px 15px 15px 0;
+}
+
+.b-hero__pager {
+    bottom: 100px;
+}
+
+.footer_info_string {
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+.stocks_company_info {
+    height: 120px;
+}
+
+.company_logo_url {
+    display: block;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin-right: 15px;
+}
+
+.b-about__line ul,
+.b-about__line ul li {
+    list-style-type: circle;
+}
+
+.default-list ul{
+    list-style: disc outside;
+    padding-left: 40px;
+}
+.default-list ul li{
+    list-style: disc outside;
+}
+
+#show_all_companies_offers {
+    height: 36px;
+    line-height: 36px;
+    padding: 0 15px;
+    vertical-align: middle;
+    background: #f55c4d;
+    font-size: 15px;
+    text-transform: none;
+    z-index: 1;
+    will-change: opacity, transform;
+    transition: all .3s ease-out;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    letter-spacing: .5px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 10px 10px 10px 65px;
+}
+
+.card:hover a  {
+    text-decoration: none;
+}
+
+#show_all_companies_offers:hover {
+    background: #119ec9;
+}
+
+.osago-offers-form__city_link
+{
+    color: #039be5;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 12px;
+    margin-right: 10px;
+    white-space: nowrap;
+}
+
+.osago-offers-form__cities
+{
+    margin: 0 0 15px 0;
+}
+
+input.osago-offers-form__city_input[type="text"]
+{
+    margin: 0;
+}
+
+.b-page__title--left{
+    display: inline-block;
+    float: left;
+    width: initial;
+    margin-bottom: 15px;
+}
+
+.container.b-about ul{
+    padding-left: 30px;
+    
+}
+
+.container.b-about ul li{
+    list-style-type: initial;
+    
+}
+
+.form__cb-input{
+    margin-bottom: 20px;
+}
+
+.c-brand-orange{
+    color: #f68b1f;
+}
+
+
+#moto-kasko-price-more-59999{
+    height: 200px;
+}
+
+#moto-kasko-offers-form .tooltipped .material-icons,.tooltipped.tooltipped--alt .material-icons{
+    font-size: 1.25rem;
+}
+
+table.js-sortable .b-ch-table__franshizaTh .tooltipped.tooltipped--alt{
+    right: initial;
+}
+
+
+
+
+.g-placeholder--alt::placeholder{color:#ffec92;opacity:1;font-size: 1rem;}
+.g-placeholder--alt::-webkit-input-placeholder{color:#ffec92;opacity:1;font-size: 1rem;}
+.g-placeholder--alt:-moz-placeholder{color:#ffec92;opacity:1;font-size: 1rem;}
+.g-placeholder--alt::-moz-placeholder{color:#ffec92;opacity:1;font-size: 1rem;}
+.g-placeholder--alt:-ms-input-placeholder{color:#ffec92;opacity:1;font-size: 1rem;}
+
+input[disabled][name="osago_date_end"]::placeholder{color:#cfcdc6;}
+input[disabled][name="osago_date_end"]::-webkit-input-placeholder{color:#cfcdc6;}
+input[disabled][name="osago_date_end"]:-moz-placeholder{color:#cfcdc6;}
+input[disabled][name="osago_date_end"]::-moz-placeholder{color:#cfcdc6;}
+input[disabled][name="osago_date_end"]:-ms-input-placeholder{color:#cfcdc6;}
+
+input[disabled][name="osago_date_end"]{
+    border: 2px solid #cfcdc6 !important;
+}
+
+@media screen and (min-width: 1200px)  { 
+    .widget-callback {
+        padding: 40px 30px !important;
+    } 
+}
+
+@media screen and (max-width: 800px) {
+    .pg-breadcrumbs {
+        display: none;
+    }
+    .form__cb-input {
+        margin-top: -10px;
+    } 
+}
+
+@media screen and (max-width: 550px) {
+    .b-logo {
+        width: 130px;
+    }
+    .b-logo__title {
+        font-size: 11px;
+    }
+    .b-ch-table__btn{
+        font-size: 10px;
+        padding: 0px 0.5rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .currency_span {
+        display: none;
+    }
+}

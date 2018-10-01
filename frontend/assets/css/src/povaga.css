@@ -1,0 +1,283 @@
+.b-bg-povaga{
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 210px;
+}
+
+.b-povaga__media{
+    margin-bottom: 0;
+}
+
+.povaha-price{
+    position: absolute;font-family: 'BRNumber';
+    font-size: 150px;
+    letter-spacing: 55px;
+    color:#000;
+    left: calc(50% - 115px);
+    left: -webkit-calc(50% - 115px);
+    left: -moz-calc(50% - 115px);
+    top: calc(50% - 0.8em);
+    top: -webkit-calc(50% - 0.8em);
+    top: -moz-calc(50% - 0.8em);
+}
+
+.b-povaga-adv .b-povaga-adv__left{
+    padding: 0;
+    position: relative;
+}
+
+.b-povaga-adv__right{
+    position: relative;
+}
+
+.b-povaga-adv__quote-bg{
+    display:block;
+    width:340px;
+    margin:0 auto;
+}
+
+.b-povaga-adv__quote{
+    position: absolute;
+    top:50px;
+    /*left:20%;*/
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+	padding: 0 20px;
+}
+
+.b-povaga-adv__desc{
+    position: absolute;
+	top: 25px;
+    left: 100px;
+    width:175px;
+	font-size: 12px;
+}
+
+.b-povaga-adv .b-page__subtitle{
+	margin-bottom: 0;
+}
+
+.b-povaga-adv__text{
+    font-weight: bold;
+	margin:0;
+}
+
+.b-povaga-quote{
+    text-align: center;
+    font-size: 16px;
+}
+
+.b-povaga-quote__quotes{
+    font-weight: bold;
+    font-size: 40px;
+    color:#fdda02;
+    line-height: 0.2;
+}
+
+.b-povaga-quote__quotes--blue{
+    color:#00ace6;
+}
+
+.b-povaga-quote__quotes--red{
+    color:#f68826;
+}
+
+.b-povaga-quote__quotes--green{
+    color:#93c73e;
+}
+
+.b-povaga-quote__author{
+    color: #dbc647;
+    float: right;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.b-povaga-quote__author--blue{
+    color:#389bbd;
+}
+
+.b-povaga-quote__author--red{
+    color:#d47b2c;
+}
+
+.b-povaga-quote__author--green{
+    color:#8cb647;
+}
+
+.b-povaga-form{
+    padding: 20px 0;
+    background: #4caf50;
+    color: #ffec92;
+}
+
+.b-povaga-form__submit{
+	height: 60px;
+	line-height: 60px;
+	max-width: 410px;
+}
+
+.b-text-bottom-fixed input{
+    font-size: 2.4rem;
+}
+
+.b-text-bottom-fixed{
+	position: absolute;
+    text-align: center;
+    width: 260px;
+    bottom: 30px;
+    left: calc(50%-125px);
+    left: -webkit-calc(50% - 125px);
+    left: -moz-calc(50% - 125px);
+}
+
+.povaga-excl{
+    text-align: center;
+}
+
+.povaga-excl__img{
+    vertical-align: middle;
+    width: 40px;
+    margin: 0 0 10px 0;
+}
+
+.povaga-excl__text{
+    vertical-align: middle;
+    display: inline-block;
+    font-weight: normal;
+    font-size: 120%;
+}
+
+.b-povaga__prev{
+    display:none;
+}
+
+.b-page__title--povaga{
+    margin-bottom: 0;
+}
+
+input.povaga__field--disabled{
+    border:2px solid #cfcdc6 !important;
+}
+
+input.povaga__field--invalid{
+    box-shadow:0px 0px 10px #D55151;
+}
+
+input.povaga__field--disabled::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color:#cfcdc6 !important;
+}
+input.povaga__field--disabled::-moz-placeholder { /* Firefox 19+ */
+  color:#cfcdc6 !important;
+}
+input.povaga__field--disabled:-ms-input-placeholder { /* IE 10+ */
+  color:#cfcdc6 !important;
+}
+input.povaga__field--disabled:-moz-placeholder { /* Firefox 18- */
+  color:#cfcdc6 !important;
+}
+
+@media screen and (min-width: 400px)  { 
+    .b-povaga-adv__desc{
+        top: 30px;
+        left: 130px;
+        width: 200px;
+        font-size: 15px;  
+    }
+
+    .b-povaga-adv .b-page__subtitle{
+        margin-bottom: 10px;
+    }
+	
+    .b-povaga-adv__text{
+        margin: 15px 0;
+    }
+	
+    .b-povaga-quote{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 600px)  { 
+    .b-povaga-adv__quote-bg{
+        width:350px;
+    }
+	
+    .b-bg-povaga{
+            height: 400px;
+    }
+    
+    .b-povaga__media{
+        margin-bottom: 20px;
+    }
+    
+    .b-povaga-adv__desc{
+            top:50px;
+            left:200px;
+    }
+
+    .b-text-bottom-fixed input{
+            font-size: 4.0rem;
+    }
+
+    .b-text-bottom-fixed{
+            width: 440px;
+            bottom: 105px;
+            left: calc(50% - 220px);
+            left: -webkit-calc(50% - 220px);
+            left: -moz-calc(50% - 220px);
+    }
+    
+    .b-povaga-adv__quote{
+        width:420px;
+        padding: 0;
+    }
+    
+    .b-page__title--povaga{
+        margin-bottom: 35px;
+    }
+}
+
+@media screen and (min-width: 700px)  {
+    .b-text-bottom-fixed{
+            width: 460px;
+            left: calc(50%-230px);
+            left: -webkit-calc(50% - 230px);
+            left: -moz-calc(50% - 230px);
+    }
+}
+
+@media screen and (min-width: 992px)  {
+    .b-povaga__prev{
+        display:block;
+    }
+    
+    .b-text-bottom-fixed{
+        width: 340px;
+        left: calc(50%-170px);
+        left: -webkit-calc(50% - 170px);
+        left: -moz-calc(50% - 170px);
+    }
+    
+    .b-text-bottom-fixed input{
+        font-size: 3.0rem;
+    }
+}
+
+@media screen and (min-width: 1200px)  {
+    .b-text-bottom-fixed{
+            width: 430px;
+            left: calc(50%-215px);
+            left: -webkit-calc(50% - 215px);
+            left: -moz-calc(50% - 215px);
+    }
+    
+    .b-text-bottom-fixed input{
+            font-size: 3.8rem;
+    }
+}

@@ -1,0 +1,638 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13 квіт. 2016, 22:39:40
+    Author     : Pavlo
+*/
+
+/*
+AutoComplite Plugin styles
+*/
+.autocomplete-suggestions {
+    text-align: left; cursor: default; border: 1px solid #d1d1d1; border-top: 0; background: #fff; box-shadow: -1px 1px 3px rgba(0,0,0,.1);
+
+    /* core styles should not be changed */
+    position: absolute; display: none; z-index: 9999; max-height: 254px; overflow: hidden; overflow-y: auto; box-sizing: border-box;
+}
+.autocomplete-suggestion { position: relative; padding: 0 .6em; line-height: 36px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 1em; color: #363636; cursor: pointer; }
+.autocomplete-suggestion b { font-weight: normal; color: #ae9675; }
+.autocomplete-suggestion.selected { background: #F3F3F3;}
+
+/*
+Rewrite some materialize styles
+*/
+.b-page ul li {
+    list-style-type: none;
+}
+
+textarea.materialize-textarea {
+    padding: 1.0rem 0px 0.8rem;
+    min-height: 1rem;
+    height: 2rem;
+}
+
+/*
+    Fade in animations
+*/
+.animated
+{
+-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both;visibility:visible
+}
+.fade-in
+{
+-webkit-animation-name:fade-in;animation-name:fade-in
+}
+@-webkit-keyframes fade-in
+{
+0%
+{
+opacity:0
+}
+100%
+{
+opacity:1
+}
+
+}
+@keyframes fade-in
+{
+0%
+{
+opacity:0
+}
+100%
+{
+opacity:1
+}
+
+}
+.fade-in-left
+{
+-webkit-animation-name:fade-in-left;animation-name:fade-in-left
+}
+@-webkit-keyframes fade-in-left
+{
+0%
+{
+opacity:0;-webkit-transform:translate3d(-10px,0,0)
+}
+100%
+{
+opacity:1;-webkit-transform:none
+}
+
+}
+@keyframes fade-in-left
+{
+0%
+{
+opacity:0;-webkit-transform:translate3d(-10px,0,0);-ms-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)
+}
+100%
+{
+opacity:1;-webkit-transform:none;-ms-transform:none;transform:none
+}
+
+}
+.fade-in-right
+{
+-webkit-animation-name:fade-in-right;animation-name:fade-in-right
+}
+@-webkit-keyframes fade-in-right
+{
+0%
+{
+opacity:0;-webkit-transform:translate3d(10px,0,0)
+}
+100%
+{
+opacity:1;-webkit-transform:none
+}
+
+}
+@keyframes fade-in-right
+{
+0%
+{
+opacity:0;-webkit-transform:translate3d(10px,0,0);-ms-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)
+}
+100%
+{
+opacity:1;-webkit-transform:none;-ms-transform:none;transform:none
+}
+
+}
+.fade-in-up
+{
+-webkit-animation-name:fade-in-up;animation-name:fade-in-up
+}
+@-webkit-keyframes fade-in-up
+{
+0%
+{
+opacity:0;-webkit-transform:translate3d(0,20px,0)
+}
+100%
+{
+opacity:1;-webkit-transform:none
+}
+
+}
+@keyframes fade-in-up
+{
+0%
+{
+opacity:0;-webkit-transform:translate3d(0,20px,0);-ms-transform:translate3d(0,20px,0);transform:translate3d(0,20px,0)
+}
+100%
+{
+opacity:1;-webkit-transform:none;-ms-transform:none;transform:none
+}
+}
+/*
+Custom styles
+*/
+@font-face {
+	font-family: 'BRnumber';
+	src: url(../font/brnumber/BRnumber.otf);
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+.pg-mt-50 {
+    margin-top: 50px;
+}
+
+.font-blue{
+    color: #13B0E1;
+}
+
+.max-full-width{
+    max-width:100%;
+}
+
+.b-header {
+    z-index: 3000;
+}
+.pg-form__wrapper {
+    position:relative;
+}
+.overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #FFF none repeat scroll 0% 0%;
+    opacity: 0.5;
+    z-index: 1000;
+    display: none;
+}
+.loader {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    z-index: 1200;
+    top: 50%;
+    left: 50%;
+    margin: -1rem 0px 0px -1rem;
+}
+
+ol.b-crum {
+    padding: 0px;
+}
+
+.b-page{
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.b-postlist__link {
+    box-shadow: none;
+}
+
+.pg-breadcrumbs .b-crumb__item.active a.b-crumb__link {
+    cursor: pointer;
+}
+
+.b-page__subtitle, .b-history__title {
+    margin-bottom: 10px;
+}
+
+.b-phone {
+    margin: 0px 0px;
+}
+
+.pg-display__inline-block{
+    display:inline-block;
+}
+
+.pg-inline-block__margin{
+    margin: 0px 50px 15px 0px;
+}
+
+#new-post-offices a {
+    text-decoration: underline;
+}
+
+.b-tabs--big .b-tabs__link {
+    border-width: 4px medium;
+}
+
+.b-tabs--justify .b-tabs__link {
+    border-width: 2px medium;
+}
+
+.special_offers {
+    margin-bottom: 20px;
+}
+
+.special_offers:hover{
+    color: #f55c4d;
+    transition: color .15s;
+}
+
+#transit {
+    height: 220px;
+}
+
+.custom_warning {
+    display: none;
+    margin: 20px auto 0 auto;
+    text-align: center;
+    color: #f55c4d;
+    font-family: inherit;
+    font-size: 20px;
+}
+
+.publications_image {
+    /*float: left;*/
+    display: block;
+    margin: 10px 15px 15px 0;
+}
+
+.b-hero__pager {
+    bottom: 100px;
+}
+
+.footer_info_string {
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+.float_none {
+    float: none;
+}
+
+.float_left {
+    float: left;
+    margin: 0 15px 15px 0;
+}
+
+
+.stocks_company_info {
+    height: 120px;
+}
+
+.company_logo_url {
+    display: block;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin-right: 15px;
+}
+
+.b-about__line ul,
+.b-about__line ul li {
+    list-style-type: circle;
+}
+
+.default-list ul{
+    list-style: disc outside;
+    padding-left: 40px;
+}
+.default-list ul li{
+    list-style: disc outside;
+}
+
+#show_all_companies_offers {
+    height: 36px;
+    line-height: 36px;
+    padding: 0 15px;
+    vertical-align: middle;
+    background: #f55c4d;
+    font-size: 15px;
+    text-transform: none;
+    z-index: 1;
+    will-change: opacity, transform;
+    transition: all .3s ease-out;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    letter-spacing: .5px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 10px 10px 10px 65px;
+}
+
+.card:hover a  {
+    text-decoration: none;
+}
+
+#show_all_companies_offers:hover {
+    background: #119ec9;
+}
+
+.osago-offers-form__city_link
+{
+    color: #039be5;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 12px;
+    margin-right: 10px;
+    white-space: nowrap;
+}
+
+.osago-offers-form__cities
+{
+    margin: 0 0 15px 0;
+}
+
+input.osago-offers-form__city_input[type="text"]
+{
+    margin: 0;
+}
+
+.b-page__title--left{
+    display: inline-block;
+    float: left;
+    width: initial;
+    margin-bottom: 15px;
+}
+
+.container.b-about ul{
+    padding-left: 30px;
+    
+}
+
+.container.b-about ul li{
+    list-style-type: initial;
+    
+}
+
+.form__cb-input{
+    margin-bottom: 20px;
+}
+
+.c-brand-orange{
+    color: #f68b1f;
+}
+
+#fb-like-modal{
+    z-index: 3003 !important;
+}
+
+
+#fb-like-modal .b-page__subtitle{
+    padding: 10px;
+}
+
+#fb-like-modal .modal-content{
+    text-align: center;
+}
+
+#fb-like-modal .fb-xfbml-parse-ignore{
+    text-align: center;
+}
+#fb-like-modal{
+    width: 96%;
+    overflow: visible; 
+}
+
+#fb-like-modal .modal-content{
+    overflow: visible; 
+}
+
+#moto-kasko-price-more-59999{
+    height: 200px;
+}
+
+#moto-kasko-offers-form .tooltipped .material-icons,.tooltipped.tooltipped--alt .material-icons{
+    font-size: 1.25rem;
+}
+
+table.js-sortable .b-ch-table__franshizaTh .tooltipped.tooltipped--alt{
+    right: initial;
+}
+
+.b-bg-povaga{
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 400px;
+}
+
+.b-text-bottom-fixed input{
+    font-size: 4.0rem;
+}
+
+.b-text-bottom-fixed{
+    width: 460px;
+    position: absolute;
+    text-align: center;
+    bottom: 105px;
+    left: calc(50%-230px);
+    left: -webkit-calc(50% - 230px);
+    left: -moz-calc(50% - 230px);
+}
+
+.g-placeholder--alt::placeholder{color:#ffec92;opacity:1;font-size: 1rem;}
+.g-placeholder--alt::-webkit-input-placeholder{color:#ffec92;opacity:1;font-size: 1rem;}
+.g-placeholder--alt:-moz-placeholder{color:#ffec92;opacity:1;font-size: 1rem;}
+.g-placeholder--alt::-moz-placeholder{color:#ffec92;opacity:1;font-size: 1rem;}
+.g-placeholder--alt:-ms-input-placeholder{color:#ffec92;opacity:1;font-size: 1rem;}
+
+input[disabled][name="osago_date_end"]::placeholder{color:#cfcdc6;}
+input[disabled][name="osago_date_end"]::-webkit-input-placeholder{color:#cfcdc6;}
+input[disabled][name="osago_date_end"]:-moz-placeholder{color:#cfcdc6;}
+input[disabled][name="osago_date_end"]::-moz-placeholder{color:#cfcdc6;}
+input[disabled][name="osago_date_end"]:-ms-input-placeholder{color:#cfcdc6;}
+
+input[disabled][name="osago_date_end"]{
+    border: 2px solid #cfcdc6 !important;
+}
+
+.povaha-price{
+    position: absolute;font-family: 'BRNumber';
+    font-size: 108px;
+    letter-spacing: 40px;
+    color:#000;
+    left: calc(50% - 75px);
+    left: -webkit-calc(50% - 75px);
+    left: -moz-calc(50% - 75px);
+    top: calc(50% - 85px);
+    top: -webkit-calc(50% - 85px);
+    top: -moz-calc(50% - 85px);
+}
+
+.b-povaga-adv .b-povaga-adv__left{
+    padding: 0;
+    position: relative;
+}
+
+.b-povaga-adv__right{
+    position: relative;
+}
+
+.b-povaga-adv__quote-bg{
+    display:block;
+    width:100%;
+}
+
+.b-povaga-adv__quote{
+    position: absolute;
+    top:50px;
+    /*left:20%;*/
+    width: 420px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.b-povaga-adv__desc{
+    position: absolute;
+    top:50px;
+    left:200px;
+    width:200px;
+}
+
+.b-povaga-adv__text{
+    font-weight: bold;
+}
+
+.b-povaga-quote{
+    text-align: center;
+    font-size: 18px;
+}
+
+.b-povaga-quote__quotes{
+    font-weight: bold;
+    font-size: 40px;
+    color:#fdda02;
+    line-height: 0.2;
+}
+
+.b-povaga-quote__quotes--blue{
+    color:#00ace6;
+}
+
+.b-povaga-quote__quotes--red{
+    color:#f68826;
+}
+
+.b-povaga-quote__quotes--green{
+    color:#93c73e;
+}
+@media screen and (min-width: 1200px)  { 
+    .widget-callback {
+        padding: 40px 30px !important;
+    } 
+    
+    #fb-like-modal {
+        width: 35%;
+        height: 270px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .pg-breadcrumbs {
+        display: none;
+    }
+    .form__cb-input {
+        margin-top: -10px;
+    } 
+}
+
+@media screen and (max-width: 550px) {
+    .b-logo {
+        width: 130px;
+    }
+    .b-logo__title {
+        font-size: 11px;
+    }
+    .b-ch-table__btn{
+        font-size: 10px;
+        padding: 0px 0.5rem;
+    }
+    
+    .b-bg-povaga{
+        height: 250px;
+    }
+    
+    .b-text-bottom-fixed input{
+        font-size: 2.6rem;
+    }
+    
+    .b-text-bottom-fixed{
+        width: 280px;
+        bottom: 50px;
+        left: calc(50%-140px);
+        left: -webkit-calc(50% - 140px);
+        left: -moz-calc(50% - 140px);
+    }
+    
+    .b-povaga-adv__desc {
+        top: 30px;
+        left: 130px;
+    }
+    
+}
+
+@media screen and (max-width: 400px) {
+    .currency_span {
+        display: none;
+    }
+    
+    .b-povaga-adv__desc{
+        left: 100px;
+        font-size: 12px;
+        width: 175px;
+        top: 25px;
+    }
+    
+    .b-povaga-adv .b-page__subtitle{
+        margin-bottom: 0;
+    }
+    
+    .b-povaga-adv__text{
+        margin:0;
+    }
+    
+    .b-povaga-adv__quote{
+        width:100%;
+        padding: 0 20px;
+    }
+    
+    .b-povaga-quote{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 550px)  { 
+    .b-povaga-adv__quote-bg{
+        margin:0 auto;
+        width:440px;
+    }
+}

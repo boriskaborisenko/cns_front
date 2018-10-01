@@ -1,0 +1,17 @@
+.promocode-error::after{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display:block;
+    color:#F44336;
+    content:attr(data-error);
+}
+
+.promocode-not-found::after{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display:block;
+    color:#F44336;
+    content:attr(data-not-found);
+}

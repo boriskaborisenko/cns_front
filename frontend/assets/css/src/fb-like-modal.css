@@ -1,0 +1,31 @@
+#fb-like-modal{
+    z-index: 3003 !important;
+}
+
+
+#fb-like-modal .b-page__subtitle{
+    padding: 10px;
+}
+
+#fb-like-modal .modal-content{
+    text-align: center;
+}
+
+#fb-like-modal .fb-xfbml-parse-ignore{
+    text-align: center;
+}
+#fb-like-modal{
+    width: 96%;
+    overflow: visible; 
+}
+
+#fb-like-modal .modal-content{
+    overflow: visible; 
+}
+
+@media screen and (min-width: 1200px)  {     
+    #fb-like-modal {
+        width: 35%;
+        height: 270px;
+    }
+}
