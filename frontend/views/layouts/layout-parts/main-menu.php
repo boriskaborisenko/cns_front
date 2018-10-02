@@ -12,8 +12,12 @@ use yii\helpers\Url;
                             <ul id="services" class="dropdown-content b-submenu">
                                 <li class="b-submenu__item">
                                     <a href="/services/auto">
+                                    <img src="/newicons/car.svg" alt="" class="b-submenu__icon">
+                                      <!--
                                         <span class="b-submenu__icon b-submenu__icon--car"></span>
+                                      -->
                                         Автомобили
+
                                     </a>
                                     <ul class="b-submenu">
                                         <li class="b-submenu__item">
@@ -38,7 +42,8 @@ use yii\helpers\Url;
                                 </li>
                                 <li class="b-submenu__item">
                                     <a href="/services/health">
-                                        <span class="b-submenu__icon b-submenu__icon--swimming"></span>
+                                        <img src="/newicons/swimming.svg" alt="" class="b-submenu__icon">
+                                        <!--<span class="b-submenu__icon b-submenu__icon--swimming"></span>-->
                                         Здоровье
                                     </a>
                                     <ul class="b-submenu">
@@ -60,7 +65,8 @@ use yii\helpers\Url;
                                 <li class="divider b-submenu__item"></li>
                                 <li class="b-submenu__item">
                                     <a href="/services/property">
-                                        <span class="b-submenu__icon b-submenu__icon--house"></span>
+                                        <img src="/newicons/house.svg" alt="" class="b-submenu__icon">
+                                        <!--<span class="b-submenu__icon b-submenu__icon--house"></span>-->
                                         Недвижимость
                                     </a>
                                     <ul class="b-submenu">
@@ -74,7 +80,8 @@ use yii\helpers\Url;
                                 </li>
                                 <li class="b-submenu__item">
                                     <a href="/services/responsibility">
-                                        <span class="b-submenu__icon b-submenu__icon--hands"></span>
+                                        <img src="/newicons/hands.svg" alt="" class="b-submenu__icon">
+                                        <!--<span class="b-submenu__icon b-submenu__icon--hands"></span>-->
                                         Ответственность
                                     </a>
                                     <ul class="b-submenu">
