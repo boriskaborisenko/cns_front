@@ -1,5 +1,6 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans:600,800&subset=latin,cyrillic);
 @import url(//fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700&subset=latin,cyrillic);
+@import url("clear.css"); 
 .g-brand-color {
     color: #16AC5D
 }
@@ -449,17 +450,17 @@ blockquote {
 .b-logo__title {
     display: inline-block;
     padding-top: 2px;
-    line-height: 1.2;
-    font-size: 13px;
+    line-height: 1.5;
+    font-size: 18px;
     background: linear-gradient(45deg, #16AC5B, #1BC5B7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  color:magenta;
 }
 
 @media screen and (min-width: 601px) {
     .b-logo__title {
-        line-height: 1.3;
+        line-height: 1.4;
+        font-family: 'Fira Sans Condensed', sans-serif;
     }
 }
 
@@ -474,7 +475,8 @@ blockquote {
         width: 80px
     }
     .b-header--hero .b-logo__title {
-        font-size: 18px
+        font-size: 28px;
+        font-family: 'Fira Sans Condensed', sans-serif;
     }
 }
 
@@ -581,7 +583,8 @@ input.b-search__input.hover {
 @media screen and (min-width: 993px) {
     .b-header--hero .b-search__form {
         background: none;
-        box-shadow: none
+        box-shadow: none;
+        display:none;
     }
     .b-header--hero input.b-search__input {
         background: none;
@@ -3515,6 +3518,8 @@ table.js-sortable .arrow.up {
 }
 .onlymob{display:none!important;}
 */
+
+
 @media screen and (min-width: 320px) and (max-width:600px) {
     
 /*

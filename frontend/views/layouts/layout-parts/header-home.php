@@ -108,88 +108,68 @@ use frontend\widgets\WSearchForm;
         <?= WSearchForm::widget(); ?>
     </header>
  
-    <div class="g-wrap">
-        <!--hero slider start-->
-        <div class="b-hero">
-            <div class="b-hero__inner">
-                <ul class="b-hero__slider js-hero">
-                    <li class="b-hero__item">
-                        <div class="b-hero__img" style="background-image:url(img/slider/slider1.jpg)"></div>
-                        <div class="b-hero__inner">
-                            <div class="b-hero__content">
-                                <div class="b-hero__caption b-hero__caption--left js-hero-caption" style="color:#fff;">
-                                    &mdash; Мама, не волнуйся,
-                                    <br />
-                                    &emsp;я застрахован
-                                </div>
-                            </div>
-                        </div>
-                        <div class="b-hero__main">
-                            <div class="b-hero__content">
-                                <div class="left">
-                                    <span class="b-hero__title onlymob">ОСАГО</span>
-                                    <a href="<?php echo Yii::$app->links->mainMenuLink(2); ?>" id="gtm-btn-main-calc-onl" class="btn b-hero__btn waves-effect waves-light onlydeskbtn">Рассчитать онлайн</a>
-                                </div>
-                                <div class="right">
-                                    <div class="b-phone">
-                                        <a href="tel:+0800758758" class="b-phone__link">
-                                            <span class="b-phone__num">0 800-758-758</span>
-                                        </a>
-                                        <div class="b-phone__content">
-                                            <span class="b-phone__icon">24/7</span>
-                                            бесплатно<br />
-                                            по Украине
-                                        </div>
-                                    </div>
-                                </div>  
-                            </div>
-                        </div>
-                    </li>
-                    <li class="b-hero__item">
-                        <div class="b-hero__img" style="background-image:url(img/slider/slider3.jpg)"></div>
-                        <div class="b-hero__inner">
-                            <div class="b-hero__content">
-                                <div class="b-hero__caption b-hero__caption--left js-hero-caption" style="color:#fff">
-                                    &mdash; Папа, не волнуйся,
-                                    <br />
-                                    &emsp;я застрахована
-                                </div>
-                            </div>
-                        </div>
-                        <div class="b-hero__main">
-                            <div class="b-hero__content">
-                                <div class="left">
-                                    <span class="b-hero__title onlymob">Зеленая карта</span>
-                                    <a href="<?php echo Yii::$app->links->mainMenuLink(4); ?>" class="btn b-hero__btn waves-effect waves-light onlydeskbtn">Рассчитать онлайн</a>
-                                </div>
-                                <div class="right">
-                                    <div class="b-phone">
-                                        <a href="tel:+0800758758" class="b-phone__link">
-                                            <span class="b-phone__num">0 800-758-758</span>
-                                        </a>
-                                        <div class="b-phone__content">
-                                            <span class="b-phone__icon">24/7</span>
-                                            бесплатно<br />
-                                            по Украине
-                                        </div>
-                                    </div>
-                                </div>  
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+    <div class="clear_header">
+        <div class="clear_header_inner">
 
-                
-                
+            <div class="pulsebtn">
+                <a  class="pulse-button" href="#">Calculacte<br>now</a>
+            </div>
 
-                <div class="b-hero__pager">
-                    <div class="b-hero__content">
-                        <div class="b-hero__nav js-hero-nav">
-                            <a href="#" class="b-hero__dot" data-slide-index="0"></a>
-                            <a href="#" class="b-hero__dot" data-slide-index="1"></a>
+            <div class="top_menu">
+                <div class="menu_wrap">
+                
+                    <div class="menu_part inl">
+                        <div class="menu_item inl2 tooltip">
+                            
+                        <span class="tooltiptext">
+                            <div class="hidden_menu">
+                                <div class="hidden_menu_wrap down-arrow">
+                                    <ul>
+                                        <li><a href="#">Menu link 1</li>
+                                        <li><a href="#">Menu link 1</li>
+                                        <li><a href="#">Menu link 1</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </span>    
+                            
+                            <a href="#">
+                                <div class="head_menu_icon">
+                                    <img src="newicons/car.svg" alt="">
+                                </div>
+                                <div class="head_menu_text">Text menu</div>
+                            </a>
+                        </div>
+                        <div class="menu_item inl2">
+                            <a href="#">
+                                <div class="head_menu_icon">
+                                    <img src="newicons/swimming.svg" alt="">
+                                </div>
+                                <div class="head_menu_text">Text menu</div>
+                            </a>
                         </div>
                     </div>
+
+                    <div class="menu_part inl">
+                    <div class="menu_item inl2">
+                            <a href="#">
+                                <div class="head_menu_icon">
+                                    <img src="newicons/house.svg" alt="">
+                                </div>
+                                <div class="head_menu_text">Text menu</div>
+                            </a>
+                        </div>
+                        <div class="menu_item inl2">
+                            <a href="#">
+                                <div class="head_menu_icon">
+                                    <img src="newicons/hands.svg" alt="">
+                                </div>
+                                <div class="head_menu_text">Text menu</div>
+                            </a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
-        <!--/hero slider end-->
+    </div>

@@ -7,7 +7,7 @@ AppJsAsset::register($this);
 $this->beginContent('@frontend/views/layouts/base.php');
 $this->beginBody();
 $this->beginContent('@frontend/views/layouts/layout-parts/header-home.php'); $this->endContent();
-echo $content;
+//echo $content;
 $this->beginContent('@frontend/views/layouts/layout-parts/footer.php'); $this->endContent();
 $this->endBody();
 $this->beginContent('@frontend/views/layouts/layout-parts/bottom.php'); $this->endContent();
