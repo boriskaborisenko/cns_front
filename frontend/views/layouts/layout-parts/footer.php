@@ -109,7 +109,7 @@ use yii\helpers\Html;
                                 else: ?>
                                 
                                 <div itemscope itemtype="http://schema.org/Organization">
-                                    <div itemprop="name"><strong>ЦЕНТР НАРОДНОГО СТРАХОВАНИЯ</strong> <sup>тм</sup><br>ООО «Интелиджент Сервис»</div>
+                                    <div itemprop="name"><strong>ЦЕНТР СТРАХОВАНИЯ</strong> <sup>тм</sup><br>ООО «Интелиджент Сервис»</div>
                                     <div>ЕДРПОУ 37770673</div>
                                     <div itemtype="http://schema.org/PostalAddress" itemscope="" itemprop="address">
                                         <div> <span itemprop="streetAddress"><span itemprop="postalCode">04119</span> г. <span itemprop="addressLocality">Киев</span>,<br/> ул. Мельникова, 83А,</span><br/> офис 307</div> 

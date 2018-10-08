@@ -23,7 +23,7 @@ use frontend\widgets\WSearchForm;
                             <img src="/images/companies/19.1.b.jpg" alt="" class="mainlogo">
                         </span>
                         <span class="b-logo__title">
-                             Центр страхования
+                        страховой Центр 
                         </span>
                     </a>
                     <!--/Logo end-->
@@ -112,7 +112,7 @@ use frontend\widgets\WSearchForm;
         <div class="clear_header_inner">
 
             <div class="pulsebtn">
-                <a  class="pulse-button" href="#">Calculacte<br>now</a>
+                <a  class="pulse-button" href="/osago/calculator">Расчет<br>online</a>
             </div>
 
             <div class="top_menu">
@@ -125,46 +125,46 @@ use frontend\widgets\WSearchForm;
                             <div class="hidden_menu">
                                 <div class="hidden_menu_wrap down-arrow">
                                     <ul>
-                                        <li><a href="#">Menu link 1</li>
-                                        <li><a href="#">Menu link 1</li>
-                                        <li><a href="#">Menu link 1</li>
+                                        <li><a href="#">ОСАГО</li>
+                                        <li><a href="#">Зеленая карта</li>
+                                        <li><a href="#">Каско</li>
                                     </ul>
                                 </div>
                             </div>
                         </span>    
                             
-                            <a href="#">
+                            <a href="/services/auto">
                                 <div class="head_menu_icon">
                                     <img src="newicons/car.svg" alt="">
                                 </div>
-                                <div class="head_menu_text">Text menu</div>
+                                <div class="head_menu_text">Автомобиль</div>
                             </a>
                         </div>
                         <div class="menu_item inl2">
-                            <a href="#">
+                            <a href="/services/health">
                                 <div class="head_menu_icon">
                                     <img src="newicons/swimming.svg" alt="">
                                 </div>
-                                <div class="head_menu_text">Text menu</div>
+                                <div class="head_menu_text">Здоровье</div>
                             </a>
                         </div>
                     </div>
 
                     <div class="menu_part inl">
                     <div class="menu_item inl2">
-                            <a href="#">
+                            <a href="/services/property">
                                 <div class="head_menu_icon">
                                     <img src="newicons/house.svg" alt="">
                                 </div>
-                                <div class="head_menu_text">Text menu</div>
+                                <div class="head_menu_text">Недвижимость</div>
                             </a>
                         </div>
                         <div class="menu_item inl2">
-                            <a href="#">
+                            <a href="/services/responsibility">
                                 <div class="head_menu_icon">
                                     <img src="newicons/hands.svg" alt="">
                                 </div>
-                                <div class="head_menu_text">Text menu</div>
+                                <div class="head_menu_text">Ответственность</div>
                             </a>
                         </div>
                     </div>

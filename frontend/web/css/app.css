@@ -584,7 +584,7 @@ input.b-search__input.hover {
     .b-header--hero .b-search__form {
         background: none;
         box-shadow: none;
-        display:none;
+        /*display:none;*/
     }
     .b-header--hero input.b-search__input {
         background: none;
@@ -661,7 +661,9 @@ input.b-search__input.hover {
 
 @media screen and (min-width: 993px) {
     .b-header--hero {
-        height: 134px
+        height: 134px;
+        position:absolute;
+       
     }
     .b-header--hero nav {
         height: 134px;
@@ -3179,8 +3181,8 @@ table.b-ch-table.highlight tbody tr {
 }
 
 .b-footer {
-    margin-top: 40px;
-    padding: 30px 10px;
+    margin-top: 0px;
+    padding: 40px 10px;
     background: #eee;
     font-size: 16px
 }

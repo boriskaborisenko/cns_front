@@ -6,7 +6,10 @@ html, body{min-height: 100%; position:relative; height:100%;}
     font-family:'Fira Sans Condensed';
     /*background: #eee;*/
     position:relative;
-    height:calc(100% - 130px);
+    height:100%;
+    width:100%;
+    background:url('https://www.fairfaxcounty.gov/news2/wp-content/uploads/2016/06/dad-child-holding-hands.jpg') center center no-repeat;
+    background-size:cover;
     /*
     background: #ffffff; 
     background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 27%, #eeeeee 62%, #ffffff 70%); 
@@ -22,6 +25,7 @@ html, body{min-height: 100%; position:relative; height:100%;}
     margin:0 auto;
     height:100%;
     position:relative;
+    
 }
 
 .top_menu{
@@ -80,9 +84,9 @@ html, body{min-height: 100%; position:relative; height:100%;}
 }
 
 .menu_item a{
-    color:#16AC5B;
+    color:#232323;
     font-size:20px;
-    font-weight:700;
+    font-weight:500;
     position:relative;
     z-index:13;
 }
@@ -94,7 +98,8 @@ html, body{min-height: 100%; position:relative; height:100%;}
     position:absolute;
     left:50%;
     margin-left: -75px;
-    top:15%;
+    top:50%;
+    margin-top:-125px;
   }
   .pulse-button {
     display:block;
@@ -115,8 +120,8 @@ html, body{min-height: 100%; position:relative; height:100%;}
     box-shadow: 0 0 0 0 #16AC5B;
     background-color: #16AC5B;
     */
-    box-shadow: 0 0 0 0 #229fff;
-    background-color: #229fff;
+    box-shadow: 0 0 0 0 #29C5B6;
+    background-color: #29C5B6;
     border-radius: 50%;
     
     /*background-image: url(YOUR-URL-IMAGE.png);*/
@@ -229,6 +234,18 @@ html, body{min-height: 100%; position:relative; height:100%;}
 
 
 @media screen and (min-width: 320px) and (max-width: 720px) {
+
+    .pulsebtn {
+        width: 80px;
+        height: 100%;
+        /*margin: 0 auto 0;*/
+        position:absolute;
+        left:50%;
+        margin-left: -75px;
+        top:10%;
+        margin-top:0px;
+      }
+
     .hidden_menu{
       display:none;
     }
@@ -247,5 +264,9 @@ html, body{min-height: 100%; position:relative; height:100%;}
     }
     .menu_part:last-child{
         width:100%;
+    }
+
+    .menu_item a{
+        font-size:14px;
     }
 }
