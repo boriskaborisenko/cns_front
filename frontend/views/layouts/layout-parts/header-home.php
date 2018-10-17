@@ -129,9 +129,9 @@ use frontend\widgets\WSearchForm;
                             <div class="hidden_menu">
                                 <div class="hidden_menu_wrap down-arrow">
                                     <ul>
-                                        <li><a href="#">ОСАГО</li>
-                                        <li><a href="#">Зеленая карта</li>
-                                        <li><a href="#">Каско</li>
+                                        <li><a href="/osago">ОСАГО</li>
+                                        <li><a href="/green-card">Зеленая карта</li>
+                                        <li><a href="/kasko">Каско</li>
                                     </ul>
                                 </div>
                             </div>
