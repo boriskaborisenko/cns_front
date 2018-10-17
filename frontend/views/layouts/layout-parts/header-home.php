@@ -109,6 +109,10 @@ use frontend\widgets\WSearchForm;
     </header>
  
     <div class="clear_header">
+        <div id="particles">
+				<div id="particles-js"></div>
+		</div>
+        
         <div class="clear_header_inner">
 
             <div class="pulsebtn">
@@ -173,3 +177,6 @@ use frontend\widgets\WSearchForm;
             </div>
         </div>
     </div>
+
+    <script src="/js/particles.js"></script>
+    <script src="/js/particles-app.js"></script>
